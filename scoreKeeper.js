@@ -52,8 +52,15 @@ reset.addEventListener("click", function () {
 });
 
 
-numInput.addEventListener("change", function(){
-pText.textContent = this.value;
-winningScore = Number(this.value);
+numInput.addEventListener("change", function () {
+  pText.textContent = this.value;
+  winningScore = Number(this.value);
+  p1Score = 0;
+  p2Score = 0;
+  player1Score.classList.remove('scoreGreen');
+  player2Score.classList.remove('scoreGreen');
+  player1Score.textContent = p1Score;
+  player2Score.textContent = p2Score;
+  h3.textContent = "Who will win?"
+  gameOver = false;
 })
-
