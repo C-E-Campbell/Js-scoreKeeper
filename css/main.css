@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(34, 181, 201);
+  color: black;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+
+.wrapper{
+
+  height: 100vh;
+  margin: auto;
+  position: relative;
+  text-align: center;
+}
+.container{
+  position: absolute;
+  display: flex;
+  margin: auto;
+  width: 100%;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+p{
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 2em;
+}
+input{
+  margin-top: 2em;
+  padding: .5em;
+  font-size: 20px;
+  
+}
+
+button{
+  margin-top: 1.5em;
+  font-size: 1.2rem;
+  padding: 8px 14px;
+  border-radius: 4px;
+  background-color: #ebf0f3;
+  border: 1px solid #333;
+  transition: all 0.3s;
+}
+
+button:hover{
+  background-color: rgb(37, 172, 82);
+  color: white;
+  transform: scale(1.2);
+  border-color: #fff;
+}
+
+button:active{
+  transform: scale(1);
+}
+
+
+.btn-con{
+  display: flex;
+  width: 500px;
+  margin-top: 2em;
+  justify-content: space-around;
+}
+
+#reset{
+  background-color: rgb(255, 166, 82);
+  margin-bottom: 2em;
+  
+}
+#reset:hover{
+  border: 1px solid #333;
+  background-color: rgb(224, 116, 15);
+}
+
+
+.heading{
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 3em;
+  margin: auto;
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.sub-heading{
+  font-family: 'Gloria Hallelujah', cursive;
+  margin-bottom: 3em;
+}
+
+#h3{
+  color: #fff;
+  font-size: 30px;
+  text-shadow: 1px 1px 3px #000;
+}
+
+#score{
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+}
+
+#p-text{
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+}
+
+input{
+  background-color: rgb(255, 255, 255);
+  color:#000;
+  border-radius: 5px;
+  border: 2px solid #fff;
+}
+
+.scoreGreen{
+  color: rgb(67, 230, 67);
+}
