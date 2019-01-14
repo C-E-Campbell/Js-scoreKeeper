@@ -133,3 +133,10 @@ input{
 .scoreGreen{
   color: rgb(67, 230, 67);
 }
+
+@media(max-width: 500){
+  body{
+    height: 100vh;
+    overflow: hidden;
+  }
+}
